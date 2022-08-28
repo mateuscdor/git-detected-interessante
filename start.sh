@@ -55,9 +55,9 @@ if [ -f /data/data/com.termux/files/usr/bin/git ]; then
 							sleep 2
 							exit
 							else
-							git remote add origin "$name"
+							git remote add github "$name"
 							sleep 2
-							git push origin master
+							git push github master
 							sleep 2
 							fi
 							else
